@@ -1,8 +1,9 @@
 export interface Feature {
   id: string;
-  category: 'Video' | 'Image' | 'Automation' | 'Utility';
+  category: 'Video' | 'Image' | 'Automation' | 'Utility' | 'Audio' | 'System';
   title: string;
   description: string;
+  details?: string[];
   iconName: string;
 }
 
