@@ -104,9 +104,9 @@ const App: React.FC = () => {
             <a href="#contact" className="hover:text-mmo-accent transition-colors">Liên hệ</a>
           </div>
 
-          <button className="bg-mmo-accent text-mmo-950 px-5 py-2 rounded font-bold text-sm hover:bg-yellow-400 transition-colors">
+          <a href="http://allinonemmo.tophostingchoice.com/data/Allinonemmo.zip" className="bg-mmo-accent text-mmo-950 px-5 py-2 rounded font-bold text-sm hover:bg-yellow-400 transition-colors">
             Tải ngay
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -133,7 +133,7 @@ const App: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#contact" className="h-12 px-8 bg-mmo-accent text-mmo-950 font-bold rounded flex items-center gap-2 hover:bg-yellow-400 transition-all hover:scale-105">
+            <a href="http://allinonemmo.tophostingchoice.com/data/Allinonemmo.zip" className="h-12 px-8 bg-mmo-accent text-mmo-950 font-bold rounded flex items-center gap-2 hover:bg-yellow-400 transition-all hover:scale-105">
               <Download size={20} /> Tải bản dùng thử
             </a>
             <a href="https://www.youtube.com/channel/UCeoi_gTMgowKgUr-cjT0vJA" target="_blank" rel="noreferrer" className="h-12 px-8 bg-mmo-900 text-white font-medium rounded border border-mmo-700 hover:border-red-600 hover:text-red-500 transition-colors flex items-center gap-2">
